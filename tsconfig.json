@@ -10,10 +10,22 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
     "paths": {
       "@/*": [
         "./resources/react/*"
-      ]
+      ],
+      "~/*": [
+        "./public/*"
+      ],
     }
   },
   "include": [
