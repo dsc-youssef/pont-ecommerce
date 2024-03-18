@@ -182,7 +182,7 @@ return [
     */
 
   'aliases' => Facade::defaultAliases()->merge([
-    'Inertia' => App\Utilities\InertiaFacade::class,
+    'Inertia' => App\Utilities\Facade\Inertia::class,
   ])->toArray(),
 
 ];

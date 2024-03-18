@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Utilities\InertiaFacade as Inertia;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +11,6 @@ use App\Utilities\InertiaFacade as Inertia;
 |
 */
 
-Route::get('/', function () {
-  return Inertia::render('website', 'Home');
-});
+require_once(__DIR__ . "/global/index.php");
+require_once(__DIR__ . "/website/index.php");
+require_once(__DIR__ . "/dashboard/index.php");
