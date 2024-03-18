@@ -1,6 +1,6 @@
 # Point Ecommerce
 
-an e-commerce website template using laravel & react & inertia
+an e-commerce website dashboard template using laravel & react & inertia
 
 **The template is pre-configured with everything you need to get started, including:**
 
@@ -12,12 +12,14 @@ an e-commerce website template using laravel & react & inertia
 - Vitest support for valid ui to avoid any bugs
 
 **NOTES if you using any linux operation system please write those commands (TO AVOID ANY ERRORS)**
+
 ```shell
 sudo apt-get install php8.2-dom
 composer update
 ```
 
 **To use the template, simply clone the repository and run the following commands:**
+
 ```shell
 composer install
 npm install
@@ -25,6 +27,7 @@ npm start
 ```
 
 **Additional commands:**
+
 ```shell
 # test react pages using typescript.
 npm run test:ts
